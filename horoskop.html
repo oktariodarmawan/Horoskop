@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <style>
+      .jawaban {
+          border-bottom: black solid 1px;
+      }
+
+      .horoskop {
+          border-bottom: black solid 1px;
+      }
+
+      .header {
+          text-align: center;
+      }
+      .judul1 {
+          text-align: center;
+      }
+      .horoskop {
+          text-align: center;
+      }
+
+  </style>
+</head>
+
+<body>
+
+<div class='header'>
+    <h2>HOROSKOP</h2>
+</div>
+
+<div id='box1' class="horoskop">
+    <h2 class='judul1 '>Ramalan anda hari ini  adalah: </h2>
+    <button id="btn1" onclick="predict()">Klik disini!</button>
+    <p id="textEl1"></p>
+</div>
+
+<div class='result-container'>
+    <ul>
+        <h2>Hasil:<span id='result'></span></h2>
+    </ul>
+</div>
+
+
+
+<script src="./horoskop.js"></script>
+</body>
+
+
+</html>
