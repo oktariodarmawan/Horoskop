@@ -1,38 +1,3 @@
-/* CATATAN LATIHAN
-const number = 1234567;
-
-const lastNumberString = number.toString();
-const lastNumberConverted= lastNumberString.slice(-1);
-const lastNumberInt = +(lastNumberConverted);
-
-console.log(lastNumberInt);
-*/
-
-/*
-const divDemo = document.getElementById("demo");
-
-const paragraph = document.createElement("p");
-paragraph.innerHTML = "halo";
-
-divDemo.append(paragraph);
-*/
-
-/*
-const name = document.getElementById("nama").value;
-console.log(name);
-*/
-
-/*
-const divDemoKedua = document.getElementsByClassName('demoKedua');
-
-const paragraf = document.createElement('h1');
-paragraf.innerHTML = "kevin"
-
-divDemoKedua.append(paragraf);
-*/
-
-//CODE JS HOROSKOP
-
 const randomNumber = Date.now();
 const el1 = document.createElement('p');
 const box1 = document.getElementById('box1');
@@ -75,17 +40,3 @@ const btnPredict = document.getElementById('btn1');
 btnPredict.addEventListener('click', function(){
     predict();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
